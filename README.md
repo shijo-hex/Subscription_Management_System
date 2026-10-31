@@ -510,3 +510,4 @@ Not yet production-hardened. Minimum steps for a basic deployment:
 - Build frontend UI for subscription lifecycle actions, invoice generation trigger, and payment entry forms
 - Add an automated test suite (e.g., Jest + supertest for backend, Vitest for frontend)
 - Add a background scheduler for invoice generation and overdue marking (currently admin-triggered only, by design for this stage)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/32501c47-48f1-4ad2-923a-f1cfa0ecb360" />
