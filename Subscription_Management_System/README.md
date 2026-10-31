@@ -8,6 +8,8 @@
 
 > Full technical reference: see [`PROJECT_DOCUMENTATION.md`](./PROJECT_DOCUMENTATION.md) for complete API specs, database schema, and section-by-section implementation status. This README is a project overview and development narrative, not a duplicate of that reference.
 
+Built by **Team Shijo Sylan** (Shijo Sylan, Anusha S J, Shan V Sayaras) for the [Odoo Hackathon](https://hackathon.odoo.com/hackathon/details/83114). See [Project Credits](#7-project-credits) for details.
+
 ---
 
 ## 1. Project Introduction
@@ -245,12 +247,17 @@ A second call to this endpoint will correctly return `409 Admin already exists`.
 ## 7. Project Credits
 
 **Project:** Brightloop Software — Subscription Management System
-**Developed for:** _[Hackathon name — to be added]_
-**Institution:** _[Institution name — to be added]_
-**Team members:** _[Names to be added]_
-**Development period:** _[Dates to be added]_
+**Hackathon:** [Odoo Hackathon](https://hackathon.odoo.com/hackathon/details/83114)
 
-> This section is a placeholder for the team to complete with accurate names, affiliations, and event details.
+### Team
+
+| Role | Name |
+|---|---|
+| 🧑‍💼 Team Leader | **Shijo Sylan** |
+| 👤 Team Member | Anusha S J |
+| 👤 Team Member | Shan V Sayaras |
+
+> Individual role breakdowns or task-level contributions are not documented here beyond the leader/member distinction above.
 
 ---
 
