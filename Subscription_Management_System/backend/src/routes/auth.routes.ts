@@ -87,7 +87,7 @@ router.post("/setup-admin", async (req, res) => {
 });
 
 // Admin-only: create staff
-router.post("/create-staff", async (req, res) => {
+import { requireAuth, requireRole } from "../middleware/auth"; {
   const { name, email, password, role } = req.body;
   if (!name || !email || !password) return res.status(400).json({ error: "Missing fields" });
   const pwError = validatePassword(password);
