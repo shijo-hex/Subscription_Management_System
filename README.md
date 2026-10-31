@@ -1,5 +1,6 @@
 # Brightloop Software — Subscription Management System
 ## Project Documentation
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/32501c47-48f1-4ad2-923a-f1cfa0ecb360" />
 
 > **Status note:** This document describes what has actually been implemented across Stages 1–3 of this build, as generated in the assistant conversation. It has **not** been verified against a running database or live codebase (no execution environment was available) — treat items under "Completed Features" as implemented-but-manually-tested-by-you-only, not verified end-to-end by the author of this doc.
 
@@ -510,4 +511,4 @@ Not yet production-hardened. Minimum steps for a basic deployment:
 - Build frontend UI for subscription lifecycle actions, invoice generation trigger, and payment entry forms
 - Add an automated test suite (e.g., Jest + supertest for backend, Vitest for frontend)
 - Add a background scheduler for invoice generation and overdue marking (currently admin-triggered only, by design for this stage)
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/32501c47-48f1-4ad2-923a-f1cfa0ecb360" />
+
